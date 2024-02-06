@@ -4,6 +4,9 @@
   padding: 0;
   /* border: dotted red 1px; */
 }
+html {
+  scroll-behavior: smooth;
+}
 section#backg {
   height: 100vh;
   width: 100%;
@@ -17,6 +20,8 @@ nav#container1 {
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
+  position: fixed;
+  z-index: 5;
 }
 nav#container1 a {
   text-decoration: none;
@@ -117,6 +122,7 @@ section.about1 h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
 }
 section.about1 #dipo {
   height: 75%;
