@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: dotted red 1px; */
+}
+section#backg {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+nav#container1 {
+  height: 50px;
+  width: 100%;
+  background-color: #0b3954;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+nav#container1 a {
+  text-decoration: none;
+  color: #fffff1;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 20px;
+}
+nav#container1 div {
+  display: flex;
+}
+nav#container1 div h3 {
+  color: #fffff1;
+  font-family: "Montserrat", sans-serif;
+}
+main#mdata {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+article.artt {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article.arttt2 {
+  background-image: url(./home-hero-vector.png);
+  background-repeat: no-repeat;
+}
+article.artt h2 {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  font-family: "Montserrat", sans-serif;
+  color: #9d5691;
+  width: 27%;
+}
+article.artt p {
+  position: absolute;
+  top: 480px;
+  left: 200px;
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+}
+article.artt a {
+  position: absolute;
+  top: 550px;
+  left: 200px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9d5691;
+  color: #fffff1;
+  font-weight: bold;
+  border-radius: 5px;
+}
+article.artt img {
+  height: 80%;
+  width: 80%;
+}
+section.about1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+section.about1 a {
+  color: #303030;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+#ordern {
+  color: #fffff1;
+  background-color: #9d5691;
+  font-size: 30px;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 820px;
+}
+section.about1 #dip {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+section.about1 h2 {
+  color: #221d23;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.about1 #dipo {
+  height: 75%;
+}
+div.prodwrap {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.prodsale {
+  height: 90%;
+  width: 20%;
+  margin: 0 20px;
+  text-align: center;
+  border: solid 1px rgba(61, 61, 61, 0.486);
+  border-radius: 5px;
+}
+div.prodsale img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+div.prodsale h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+div.prodsale p {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 35px;
+}
+div.prodsale a {
+  background-color: #9d5691;
+  color: #fffff1;
+  width: 100px;
+  height: 40px;
+  margin-left: 135px;
+  border-radius: 5px;
+}
+section.about1 {
+  width: 100%;
+  text-align: center;
+}
+section.about1 #subpoint {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+section.about1 form {
+  width: 40%;
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  left: 550px;
+}
+#backimg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+}
+#formlog {
+  width: 40%;
+  height: 30%;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 370px;
+  border: #0b3954 solid 1px;
+  border-radius: 5px;
+  background-color: #fffff1;
+}
+form#formlog h3 {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 40px 0;
+}
+form#formlog input {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
+  border: solid 1px #221d23;
+  border-radius: 5px;
+  position: relative;
+}
+form#formlog #sublog {
+  border: solid 1px #221d23;
+  border-radius: 5px;
+  width: 20%;
+  height: 30px;
+  cursor: pointer;
+  background-color: #9d5691;
+  position: absolute;
+  right: 20px;
+  margin-top: 20px;
+}
+form#formlog a {
+  position: absolute;
+  right: 180px;
+  margin-top: 25px;
+}
+#sigbut {
+  background-color: #9d5691;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+#sigmarg {
+  display: flex;
+  align-items: center;
+}
+form {
+  border: #0b3954 solid 1px;
+  border-radius: 5px;
+  background-color: #9d5691;
+  color: #fffff1;
+}
+#name2 {
+  margin-top: 50px;
+}
+.name3 {
+  margin-top: 20px;
+}
+#inquiry1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
